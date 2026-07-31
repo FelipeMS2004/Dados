@@ -1,7 +1,7 @@
 # Importando Dados
 Extração de dados de diferentes origens.
 
- **Trabalhando com arquivos .CSV (arquivos de texto com separação de valores por vírgulas)**
+##Trabalhando com arquivos .CSV (arquivos de texto com separação de valores por vírgulas)**
 
  **Baixando Bibliotecas**
  
@@ -10,7 +10,7 @@ Extração de dados de diferentes origens.
 
  **Importando dados de forma off-line**
 
-```tabela = pd.read_csv(fillpath_or_buffer = "NOME DA PASTA/NOME DO ARQUIVO")```
+```tabela = pd.read_csv(filepath_or_buffer = "NOME DA PASTA/NOME DO ARQUIVO")```
 
  **Importando dados de forma on-line**
 
@@ -18,8 +18,8 @@ Extração de dados de diferentes origens.
 
  **Importando dados e ajeitando separadores**
 
-```tabela = pd.read_csv(fillpath_or_buffer = "NOME DA PASTA/NOME DO ARQUIVO", sep = ";", dec = ",")```
+```tabela = pd.read_csv(filepath_or_buffer = "NOME DA PASTA/NOME DO ARQUIVO", sep = ";", decimal = ",")```
 
  **Importando dados com codificações diferentes**
 
-```tabela = pd.read_csv(fillpath_or_buffer = "NOME DA PASTA/NOME DO ARQUIVO, sep = ";", encoding = "latin_1")```
+```tabela = pd.read_csv(filepath_or_buffer = "NOME DA PASTA/NOME DO ARQUIVO, sep = ";", encoding = "latin_1")```
