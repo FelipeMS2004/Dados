@@ -6,7 +6,6 @@ Extração de dados de diferentes origens.
  ### Baixando Bibliotecas
  
 ```import pandas as pd```
-```import numpy as np```
 
  ### Importando dados de forma off-line
 
@@ -23,3 +22,18 @@ Extração de dados de diferentes origens.
  ### Importando dados com codificações diferentes
 
 ```tabela = pd.read_csv(filepath_or_buffer = "NOME DA PASTA/NOME DO ARQUIVO, sep = ";", encoding = "latin_1")```
+
+## Trabalhando com arquivos Excel (.xls/.xlsx)
+
+### Baixando Biblioteca
+
+```import pandas as pd```
+
+### Importando dados de forma offline
+
+```tabela = pd.read_excel(io = "NOME DA PASTA/NOME DO ARQUIVO")```
+
+### Importando dados de forma online
+
+```tabela = pd.read_excel(io = "Link da URL")```
+
