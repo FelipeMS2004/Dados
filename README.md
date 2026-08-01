@@ -43,8 +43,4 @@ Extração de dados de diferentes origens.
 
 ### Importando dados especificando intervalo de linhas
 
-```tabela=pd.read_excel(io = "#NOME DO ARQUIVO",
-skiprows = x,
-nrows = y,
-names = ("str",...),
-header = None)```
+```tabela=pd.read_excel(io = "#NOME DO ARQUIVO", skiprows = x, nrows = y, names = ("str",...), header = None)```
