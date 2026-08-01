@@ -39,7 +39,7 @@ Extração de dados de diferentes origens.
 
 ### Importação de determinada planilha no excel
 
-```tabela=pd.read_excel(io = "#NOME DO ARQUIVO", sheet_name = "nome ou número índice da planilha")
+```tabela=pd.read_excel(io = "#NOME DO ARQUIVO", sheet_name = "nome ou número índice da planilha")```
 
 ### Importando dados especificando intervalo de linhas
 
