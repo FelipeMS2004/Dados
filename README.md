@@ -47,4 +47,4 @@ Extração de dados de diferentes origens.
 skiprows = x,
 nrows = y,
 names = ("str",...),
-header = None)
+header = None)```
